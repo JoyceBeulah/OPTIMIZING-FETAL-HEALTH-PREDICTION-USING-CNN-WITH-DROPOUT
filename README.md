@@ -14,15 +14,25 @@ Current fetal health monitoring relies on cardiotocography (CTG) to assess fetal
 The proposed system uses a CNN architecture tailored for fetal health prediction based on cardiotocography (CTG) signals. It classifies fetal health into Normal, Moderate, and Pathological categories by processing fetal heart rate and uterine contractions. Dropout layers help mitigate overfitting, enhancing generalization. Techniques like batch normalization and early stopping stabilize training. While a stacking ensemble approach was tested, the dropout-enhanced CNN consistently outperformed, proving its effectiveness in accurate classification. This system supports healthcare professionals in optimizing prenatal care by providing precise fetal health assessments.
 
 ## MODEL ARCHITECTURE :
-
+![image](https://github.com/user-attachments/assets/50cd836d-563b-4c69-90aa-8e00d5c9234f)
 
 
 ## OUTPUT :
 ### Distribution of Fetal Health Risk
+![image](https://github.com/user-attachments/assets/aab3b051-a4ac-469d-9df4-b513c9f636b4)
+
 ### Pair Plot of Fetal Health Features with Risk Categories
+![image](https://github.com/user-attachments/assets/cf64b4d7-bae3-4c79-a4b9-ce55e694ce62)
+
 ### Distribution of Baseline FHR
+![image](https://github.com/user-attachments/assets/a8ebb656-2759-46f4-a487-4e1afbc06b52)
+
 ### Accuracy Graph
+![image](https://github.com/user-attachments/assets/90da0194-53b3-442b-ac8a-9a4f223554a7)
+
 ### Loss Graph
+![image](https://github.com/user-attachments/assets/ff1c7d51-1272-427e-806d-070a54349741)
+
 
 ## REFERENCES :
 
